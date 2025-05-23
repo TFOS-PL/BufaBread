@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Gra: Pieczenie Chleba</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Upiecz swój chleb!</h1>
+  <div id="game">
+    <button onclick="addIngredient('mąka')">Dodaj mąkę</button>
+    <button onclick="addIngredient('woda')">Dodaj wodę</button>
+    <button onclick="addIngredient('drożdże')">Dodaj drożdże</button>
+    <button onclick="bakeBread()">Piec chleb</button>
+    <p id="status">Zbierz składniki!</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
